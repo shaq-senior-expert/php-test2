@@ -6,12 +6,15 @@
 
 1. In this code, it added the `Paintable` interface:
 
+// interface
 interface Paintable {
     public function isPaintDamaged(): bool;
 }
+//
 
 2. In this code, it added the `Painting` class:
 
+// class
 class Painting implements Paintable {
     protected $paintCondition;
     
